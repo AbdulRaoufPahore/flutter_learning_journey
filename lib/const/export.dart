@@ -5,6 +5,10 @@ export 'package:flutterlearnplan/const/string.dart';
 export 'package:flutter_svg/svg.dart';
 export 'package:shared_preferences/shared_preferences.dart';
 export '../pr.dart';
+export 'package:flutterlearnplan/Week2/Day5/provider/provider_counter.dart';
+export 'package:provider/provider.dart';
+export 'package:sqflite/sqflite.dart';
+export 'package:path/path.dart';
 
 // Week 1
 
@@ -38,10 +42,13 @@ export 'package:flutterlearnplan/Week1/Day7/Form & Validation/homePage.dart';
 
 //Week 2
 
-// Day 1
-
 export 'package:flutterlearnplan/Week2/Day1/listview.dart';
 export 'package:flutterlearnplan/Week2/Day1/gridview.dart';
+// export 'package:flutterlearnplan/Week2/Day5/provider/provider_counter.dart';
+export 'package:flutterlearnplan/Week2/Day5/provider/counter_scree.dart';
+export 'package:flutterlearnplan/Week2/Day6/animationContainer.dart';
+export 'package:flutterlearnplan/Week2/Day6/Hero_Animation/heroScreen1.dart';
+export 'package:flutterlearnplan/Week2/Day6/Hero_Animation/heroScreen2.dart';
 
 //Week 3
 
@@ -56,3 +63,9 @@ export 'package:flutterlearnplan/projects/Apps/mini/Tabs/gallery.dart';
 // Profile
 export 'package:flutterlearnplan/projects/Apps/mini/profile/Screen/profile_screen.dart';
 export 'package:flutterlearnplan/projects/Apps/mini/profile/widgets/info_card.dart';
+
+// Todo
+export 'package:flutterlearnplan/projects/Apps/todo/todo_model.dart';
+export 'package:flutterlearnplan/projects/Apps/todo/db_helper.dart';
+export 'package:flutterlearnplan/projects/Apps/todo/home_screen.dart';
+export 'package:flutterlearnplan/projects/Apps/todo/task_from.dart';

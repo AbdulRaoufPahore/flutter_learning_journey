@@ -19,7 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
     await prefs.setBool('isLoggedIn', true);
     await prefs.setString('username', nameController.text);
     Navigator.pushReplacement(
-      context,
+      context as BuildContext,
       MaterialPageRoute(builder: (context) => HomeScreenPrf()),
     );
   }
@@ -30,21 +30,20 @@ class _LoginScreenState extends State<LoginScreen> {
       appBar: AppBarWidget("Login"),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(children: [
-          TextField(
-            controller: nameController,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: "Enter you name"
+        child: Column(
+          children: [
+            TextField(
+              controller: nameController,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: "Enter you name",
+              ),
             ),
 
-            
-          ),
-
-          20.heightBox,
-          ElevatedButton(onPressed:login, child: "Login".text.make())
-        ],
-            ),
+            20.heightBox,
+            ElevatedButton(onPressed: login, child: "Login".text.make()),
+          ],
+        ),
       ),
     );
   }

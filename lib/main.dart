@@ -1,6 +1,7 @@
 import 'package:flutterlearnplan/const/export.dart';
 
 void main() {
+  // ChangeNotifierProvider(create: (_) => CounterProvider(), child: MyApp());
   runApp(MyApp());
 }
 
@@ -35,7 +36,12 @@ class MyApp extends StatelessWidget {
       // Pojects
       // home: CounterScreen(),
       // home: ContantGalleryMiniApp(),
-      home: ProfileScreen(),
+      // home: ProfileScreen(),
+      // home: ProviderMain(),
+      // home: AnimatedContainerExample(),
+      // Hero Animation
+      // home: HeroScreen1(),
+      home: HomeScreenTodo(),
 
       // home: Pr(),
     );
