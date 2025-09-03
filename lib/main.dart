@@ -32,16 +32,17 @@ class MyApp extends StatelessWidget {
       // Week 2
       // home: ListviewDay8(),
       // home: GridviewDay8(),
+      // home: AnimatedContainerExample(),
+      // Hero Animation
+      // home: HeroScreen1(),
+      // home: HomeScreenTodo(),
+      home: ApiExampleDay7(),
 
       // Pojects
       // home: CounterScreen(),
       // home: ContantGalleryMiniApp(),
       // home: ProfileScreen(),
       // home: ProviderMain(),
-      // home: AnimatedContainerExample(),
-      // Hero Animation
-      // home: HeroScreen1(),
-      home: HomeScreenTodo(),
 
       // home: Pr(),
     );

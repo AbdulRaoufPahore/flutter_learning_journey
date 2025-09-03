@@ -9,6 +9,8 @@ export 'package:flutterlearnplan/Week2/Day5/provider/provider_counter.dart';
 export 'package:provider/provider.dart';
 export 'package:sqflite/sqflite.dart';
 export 'package:path/path.dart';
+export 'package:http/http.dart';
+export 'dart:convert';
 
 // Week 1
 
@@ -49,6 +51,7 @@ export 'package:flutterlearnplan/Week2/Day5/provider/counter_scree.dart';
 export 'package:flutterlearnplan/Week2/Day6/animationContainer.dart';
 export 'package:flutterlearnplan/Week2/Day6/Hero_Animation/heroScreen1.dart';
 export 'package:flutterlearnplan/Week2/Day6/Hero_Animation/heroScreen2.dart';
+export 'package:flutterlearnplan/Week2/Day7/api_example.dart';
 
 //Week 3
 
